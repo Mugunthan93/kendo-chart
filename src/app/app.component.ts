@@ -18,8 +18,12 @@ import { Task, tasks, dependencies } from './hierarchical-data';
             [columnsReorderable]="true"
         >
 
+        <ng-template kendoGanttCellTemplate let-dataItem>
+        {{ 'temp' }}
+    </ng-template>
+
         <ng-template kendoGanttTaskTemplate let-dataItem let-elementWidth="elementWidth">
-               {{ dataItem.title }}
+               {{ '' }}
            </ng-template>
 
             <kendo-gantt-column

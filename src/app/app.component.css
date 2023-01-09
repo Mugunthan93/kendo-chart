@@ -1,5 +1,6 @@
 ::ng-deep .k-task-single {
-  visibility: hidden;
+  height: 10px !important;
+  border-radius: 0px;
 }
 
 ::ng-deep .k-task-single::before {

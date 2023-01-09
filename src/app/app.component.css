@@ -1,0 +1,17 @@
+::ng-deep .k-task-single {
+  visibility: hidden;
+}
+
+::ng-deep .k-task-single::before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #000;
+  clear: both;
+  visibility: initial;
+}
